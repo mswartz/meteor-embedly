@@ -3,7 +3,7 @@
 //EMBED Docs: http://embed.ly/docs/api/embed/endpoints/1/oembed
 
 //Currently only supports Extract and Embed, no more params yet.
-//Thanks to Jeff Vlahos (@jvlahos), Andrew Pellett (@anrope) and Embedly
+//Thanks to Jeff Vlahos (@jvlahos), Andrew Pellett (@anrope) for a helpful blog post and Embedly
 
 Embedly = {
 	extract: function(url) {
@@ -28,7 +28,6 @@ Embedly = {
 			},
 			success: function(data) {
 				embedly = data;
-				console.log('Embed.ly got the goods!', embedly);
 				eSuccess = true;
 			}
 		});
@@ -60,7 +59,6 @@ Embedly = {
 			},
 			success: function(data) {
 				embedly = data;
-				console.log('Embed.ly got the goods!', embedly);
 				eSuccess = true;
 			}
 		});
