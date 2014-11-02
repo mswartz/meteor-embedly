@@ -27,11 +27,10 @@ Or like this if you don't want to use Embedly from the client:
 
 ```
 {
-	"public": {
-		"embedlyApiKey": "b4853d518e7847378a1fb018fba95878"
-	}
+	"embedlyApiKey": "b4853d518e7847378a1fb018fba95878"
 }
 ```
+
 
 Then run your app and initialize the settings with this command: `meteor --settings settings.json` if that's what your json file is called and that's where it lives, in this example at the root. 
 
@@ -50,7 +49,7 @@ I'll explore adding more parameter granularity to the calls, and maybe implement
 I wasn't sure how to write tests for this without baking in an API key. Suggestions?
 
 ### Thanks
-To Jeff Vlahos (@jvlahos) for writing the original Embedly API calls that I swiped form his Courier project. 
+To Jeff Vlahos (@jvlahos) for writing the original Embedly API calls that I swiped from his Courier project. 
 
 
 
